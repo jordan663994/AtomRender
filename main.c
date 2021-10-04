@@ -90,6 +90,12 @@ static float calc_specific_heat1(int a) {
   if (a == 7) {
     return 1.04
   }
+  if (a == 8) {
+    return 0.92
+  }
+  if (a == 9) {
+    return 0.82
+  }
 }
 
 static struct atomInSpace {
