@@ -123,6 +123,15 @@ static float calc_specific_heat1(int a) {
   if (a == 18) {
     return 0.52;
   }
+  if (a == 19) {
+    return 0.75;
+  }
+  if (a == 20) {
+    return 0.63;
+  }
+  if (a == 21) {
+    return 0.6;
+  }
 }
 
 static struct atomInSpace {
