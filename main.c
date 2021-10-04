@@ -70,40 +70,52 @@ static atom render(char atomic_number) {
 
 static float calc_specific_heat1(int a) {
   if (a == 1) {
-    return 14.304
+    return 14.304;
   }
   if (a == 2) {
-    return 5.193
+    return 5.193;
   }
   if (a == 3) {
-    return 3.6
+    return 3.6;
   }
   if (a == 4) {
-    return 1.82
+    return 1.82;
   }
   if (a == 5) {
-    return 1.02
+    return 1.02;
   }
   if (a == 6) {
-    return 0.71
+    return 0.71;
   }
   if (a == 7) {
-    return 1.04
+    return 1.04;
   }
   if (a == 8) {
-    return 0.92
+    return 0.92;
   }
   if (a == 9) {
-    return 0.82
+    return 0.82;
   }
   if (a == 10) {
-    return 0.904
+    return 0.904;
   }
   if (a == 11) {
-    return 1.23
+    return 1.23;
   }
   if (a == 12) {
-    return 1.02
+    return 1.02;
+  }
+  if (a == 13) {
+    return 0.9;
+  }
+  if (a == 14) {
+    return 0.71;
+  }
+  if (a == 15) {
+    return 0.77;
+  }
+  if (a == 16) {
+    return 0.71;
   }
 }
 
